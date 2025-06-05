@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tracking Fix Tech</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #eee;
+      margin: 40px;
+    }
+    nav {
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: #e94e77;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1, h2 {
+      color: #e94e77;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    .contact-info {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #e94e77;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 1em;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #d43c65;
+    }
+    form {
+      max-width: 400px;
+    }
+    label {
+      display: block;
+      margin: 8px 0 4px;
+    }
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 3px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <h1>Welcome to Tracking Fix Tech</h1>
+  <p>We provide expert tracking and monitoring services for WhatsApp, Facebook, Instagram, and more.</p>
+  <p>Started with passion and 5 years of experience, highly recommended.</p>
+  <p class="contact-info">Contact us now: +1 (681) 523‑1267</p>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are passionate experts with 5 years of experience helping you track your loved ones’ activities safely and professionally.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>WhatsApp tracking</li>
+      <li>Facebook and Instagram monitoring</li>
+      <li>Real-time updates and reports</li>
+      <li>Confidential and secure service</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <button onclick="alert('Please call +1 (681) 523-1267 for inquiries!')">Call Now</button>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" />
+
+      <input type="submit" value="Send" />
+    </form>
+  </section>
+</body>
+</html>
